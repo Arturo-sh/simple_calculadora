@@ -1,0 +1,53 @@
+body {
+    background: #eeeeee;
+}
+
+#container {
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+form {
+    border: 2px groove blueviolet;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 30px 15px 10px;
+    font-size: 1.4em;
+    max-width: 80vw;
+    margin: auto auto;
+    overflow: auto;
+}
+
+legend {
+    text-align: center;
+    margin: 20px 0 50px;
+}
+
+input {
+    width: 100%;
+    min-height: 40px;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 1.4em;
+}
+
+hr {
+    width: 100%;
+}
+
+#totalPagar {
+    color: blue;
+}
+
+#cambio {
+    color: green;
+}
+
+#restante {
+    color: red;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Calculadora</title>
+        <link rel="stylesheet" href="src/style.css">
+        <link rel="manifest" href="manifest.json">
+        <meta name="theme-color" content="#009578">
+        <link rel="apple-touch-icon" href="images/logoApp.png">
+    </head>
+
+<body>
+    <div id="container">
+        <form action="">
+            <legend>Simple calculadora</legend>
+            <label>Precio por kilo:</label>
+            <input type="number" name="" id="precio" value="75">
+            <hr>
+            <label>Kilos:</label>
+            <input type="number" name="" id="kilos">
+            <hr>
+            <label>Gramos:</label>
+            <input type="number" name="" id="gramos">
+            <hr>
+            <label>Pagó con: </label>
+            <input type="number" name="" id="pago">
+            <hr>
+            <p>El total a pagar es: $<span id="totalPagar"></span></p>
+            <p id="vuelto" hidden>El cambio a devolver es de: $<span id="cambio"></span></p>
+            <p id="faltante" hidden>Faltan: $<span id="restante"></span> pesos para completar el precio</p>
+        </form>
+    </div>
+
+    <script src="src/main.js"></script>
+    <script src="src/index.js"></script>
+</body>
+
+</html>

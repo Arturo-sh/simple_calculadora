@@ -1,0 +1,16 @@
+{
+    "name": "Simple calculadora",
+    "short_name": "Simple Calc",
+    "start_url": ".",
+    "background_color": "#6dcdb1",
+    "theme_color": "#009578",
+    "display": "standalone",
+    "description": "Simple calculadora dirigida a pollerías, con el fin de agilizar las ventas",
+    "icons": [
+        {
+            "src": "images/logoApp.png",
+            "sizes": "256x256",
+            "type": "image/png"
+        }
+    ]
+}
